@@ -1,10 +1,10 @@
 import ProjectDescription
 
-let projectName = "Practice"
-let orgName = "https://github.com/gnksbm/Tuist_Practice2"
-let bundleID = "com.GeonSeobKim.TuistPractice2"
+let projectName = "Zeno"
+let orgName = "https://github.com/gnksbm/Zeno"
+let bundleID = "com.Zeno"
 let infoPlist: [String: InfoPlist.Value] = [
-    "CFBundleDisplayName": "MyApp",
+    "CFBundleDisplayName": "ZenoApp",
     "CFBundleShortVersionString": "1.0",
     "CFBundleVersion": "1.0.0",
     "LSApplicationQueriesSchemes": ["kakaokompassauth", "kakaolink", "kakao$(KAKAO_APP_KEY)"],
@@ -23,7 +23,7 @@ let project = Project(
     ],
     targets: [
         .init(
-            name: "Practice",
+            name: "Zeno",
             platform: .iOS,
             product: .app,
             bundleId: bundleID,
